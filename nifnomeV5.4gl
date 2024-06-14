@@ -30,7 +30,7 @@ MAIN
 	    WHILE tamanho != 0
 			LET i = i + 1
 
-			--INPUT DO NIF COM VERIFICA€?O PARA LETRAS
+			--INPUT DO NIF COM VERIFICAâ‚¬?O PARA LETRAS
 			WHILE TRUE
 				PROMPT "\tInsira o nif: " FOR aux_nif
 				LET aux_nif = DOWNSHIFT(aux_nif)
@@ -42,7 +42,7 @@ MAIN
 			END WHILE
 			LET PESSOAS_NIF[tamanho] = aux_nif
 			
-			--INPUT DO NOME COM VERIFICA€?O PARA NUMEROS
+			--INPUT DO NOME COM VERIFICAâ‚¬?O PARA NUMEROS
 			WHILE TRUE
 				LET aux_nome = DOWNSHIFT(aux_nome)
 				PROMPT "\tInsira o nome: " FOR aux_nome
@@ -55,7 +55,7 @@ MAIN
 				END IF
 			END WHILE
 
-			--INPUT DO VENCIENTO COM VERIFICA€?O PARA LETRAS
+			--INPUT DO VENCIENTO COM VERIFICAâ‚¬?O PARA LETRAS
 			WHILE TRUE
 				PROMPT "\tInsira o vencimento: " FOR aux_vencimento
 				LET PESSOAS_VENCIMENTO[tamanho] = aux_vencimento
@@ -67,7 +67,7 @@ MAIN
 				END IF
 			END WHILE
 			
-			--INPUT DA ESCOLHA DE ADICIONAR MAIS UMA PESSOA COM VERIFICA€?O PARA NUMEROS
+			--INPUT DA ESCOLHA DE ADICIONAR MAIS UMA PESSOA COM VERIFICAâ‚¬?O PARA NUMEROS
 			WHILE l = 1
 				PROMPT "Deseja introduzir mais uma pessoa? s - sim || n - nao: " FOR escolha
 				LET escolha = DOWNSHIFT(escolha)
@@ -92,7 +92,7 @@ MAIN
 			DISPLAY "\n"
 		END FOR
 		
-		--INPUT DA ESCOLHA2 DE ORDENAR OS DADOS COM VERIFICA€?O PARA LETRAS
+		--INPUT DA ESCOLHA2 DE ORDENAR OS DADOS COM VERIFICAâ‚¬?O PARA LETRAS
 	    WHILE TRUE	
 			PROMPT "Deseja ordenar os dados por Ordem Crescente(1) dos NIFS ou Ordem Alfabetica(2) dos NOMES: " FOR escolha2
 			IF escolha2 = 1 THEN
@@ -161,7 +161,7 @@ MAIN
         
         LET k = k + 1
 	    
-		--INPUT DA ESCOLHA3 DE REPETIR O PROGRAMA COM VERIFICA€?O PARA LETRAS
+		--INPUT DA ESCOLHA3 DE REPETIR O PROGRAMA COM VERIFICAâ‚¬?O PARA LETRAS
 		WHILE TRUE
 			PROMPT "Deseja Repetir o Programa? 1- SIM 2- NAO: " FOR escolha3
 			IF escolha3 = 1 THEN
